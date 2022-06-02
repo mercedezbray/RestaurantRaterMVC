@@ -31,7 +31,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-//0.04 Add this like to the body of webBuilder lambda passed into the ConfigureWebHostsDefaults method:
-//webBuilder.UseUrls("http://localhost:80", "https://localhost:443");
-
 app.Run();
